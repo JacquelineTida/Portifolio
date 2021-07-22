@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+h1{
+    font-family: 'Raleway', serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+h2{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1.5rem;
+    font-weight: 200;   
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    word-spacing: 2px;
+    text-align: justify;
+    line-height: 1.5;
+}
+a{
+    font-family: 'Raleway', serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: #3e3d3d;
+}
+.grid{
+    width: 100%;
+}
+header{
+    width:100%;
+    height: 70vh;
+}
+.hl{
+    height: 1px;
+    background: #3e3d3d;
+    transform: translate(-100px,0);
+}
+.hl_position1{
+    width: 300px;
+    transform: translate(-100px,0);
+}
+.hl_position2{
+    width: 700px;
+    transform: translate(50px, 0);
+}
+.navbar{
+    padding: 10px 30px;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0.6), hsla(0, 0%, 100%, 0.6), hsla(0, 0%, 100%, 0.7), hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0.9), hsla(0, 0%, 100%, 1));
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    color: #3e3d3d;
+    border: solid, 1px gray;
+}
+.navigator{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.circle{
+    width: 350px;
+    height: 350px;
+    background: hsla(0, 0%, 90%, 0.5);
+    position: relative;
+    border-radius: 50%;
+    left: 100px;
+}
+.little_me{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.little_me img{
+    filter: grayscale(100%);
+    border-radius: 50%;
+    position:absolute;
+    left:200px;
+    z-index: 2;
+}
+.text_wrapper{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
