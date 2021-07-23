@@ -16,11 +16,14 @@ h2{
     font-weight: 200;   
 }
 h3{
+    font-family: 'Raleway', serif;
+}
+h4{
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
     word-spacing: 2px;
     text-align: justify;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 a{
     font-family: 'Raleway', serif;
@@ -122,4 +125,29 @@ header{
 .social_icons:hover{
     color: #f1b900;
     transform: scale(1.2);
+}
+
+.portfolio_unit{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.title h3{
+    width: 18%;
+    font-size: 1.6rem;
+    padding: 5px;
+    color: #3e3d3d;
+    text-align: center;
+}
+.highlight{
+    height: 30px;
+    background: linear-gradient(180deg, white 60%, #ffdb25 40%);
+}
+.image_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.image_wrapper img{
+    width: 30%;
 }
