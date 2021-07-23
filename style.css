@@ -32,6 +32,7 @@ a{
 .grid{
     width: 100%;
 }
+/*----- Header ----*/
 header{
     width:100%;
     height: 70vh;
@@ -39,15 +40,24 @@ header{
 .hl{
     height: 1px;
     background: #3e3d3d;
-    transform: translate(-100px,0);
 }
 .hl_position1{
     width: 300px;
     transform: translate(-100px,0);
 }
 .hl_position2{
-    width: 700px;
+    width: 750px;
     transform: translate(50px, 0);
+    animation: slide 2s 3s forwards;
+}
+.hl1{
+    margin-top: 10px;
+    height: 1px;
+    background: hsla(0, 1%, 24%, 0.3);
+}
+.hl_position3{
+    width:40%;
+    margin: 0 auto;
 }
 .navbar{
     padding: 10px 30px;
@@ -72,6 +82,7 @@ header{
     left: 100px;
 }
 .little_me{
+    margin: 40px 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -87,4 +98,28 @@ header{
     width: 40%;
     display: flex;
     flex-direction: column;
+}
+@keyframes slide{
+    0%{
+        transform: translate(50px, 0);
+    }
+    100%{
+        transform: translate(-10px,0);
+    }
+}
+
+/* ----- Social media -----*/
+.social_media{
+    width: 20%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social_icons{
+    color: gray;
+}
+.social_icons:hover{
+    color: #f1b900;
+    transform: scale(1.2);
 }
