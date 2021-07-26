@@ -226,12 +226,12 @@ form{
         display: none;
     }
     .info_wrapper{
-        width: 400px;
+        width: 280px;
         margin: 0 auto;
         border: solid 1px blue;
     } 
     .more_info{
-        width: 300px;
+        width: 250px;
         margin: 10px auto;
         display: flex;
         flex-direction: column;
