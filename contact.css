@@ -186,7 +186,7 @@ form{
     transform: translate3d(0px, -29px, 0px);
   }
   /* --- Mobile features --*/
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1000px) {
     h1{
         font-size: 1.3rem;
     }
@@ -226,18 +226,22 @@ form{
         display: none;
     }
     .info_wrapper{
-        width: 300px;
+        width: 400px;
         margin: 0 auto;
+        border: solid 1px blue;
     } 
     .more_info{
-        width: 200px;
+        width: 300px;
         margin: 10px auto;
         display: flex;
         flex-direction: column;
+        border: solid 1px pink;
     }
     .info_unit a{
-        width: 80%;
+        width: 60%;
         font-size: 1rem;
+        border: solid 1px orange;
+        text-align: left;
     } 
     .email_title h3{
         font-size: 1.2rem;
