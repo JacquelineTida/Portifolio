@@ -20,14 +20,43 @@
             </div>
         </div>
         <div class="little_me">
-            <img class="photo" src="/images/jacqueline.jpg" alt="photograph of Jacqueline Atsuko Tida" >
+            <div class="info_wrapper">
+                <img class="photo" src="/images/jacqueline.jpg" alt="photograph of Jacqueline Atsuko Tida" >
+                <div class="more_info">
+                    <div class="info_unit">
+                        <a href="https://www.google.com/maps/place/Galveston,+TX/@29.2329856,-95.1535041,10z/data=!3m1!4b1!4m5!3m4!1s0x863f59c8c4059259:0xe58b03c9b9eaecc1!8m2!3d29.3013479!4d-94.7976958" target="_blank"><i class="icons fas fa-map-marker-alt"></i>Galveston, TX</a>
+                    </div>
+                    <div class="info_unit">
+                        <a href="mailto:jacquelinetida@gmail.com" target="_blank"> <i class="icons fas fa-envelope "></i>jacquelinetida@gmail.com</a>
+                    </div>
+                    <div class="info_unit">    
+                        <a href="tel:14094659909" target="_blank"><i class="icons fas fa-phone"></i>(409)465-9909</a>
+                    </div>
+
+                </div>
+            </div>
+            
             <div class="email_wrapper">
                 <div class="email_title">
                     <h3>Contact Me</h3>
                 </div>
+                <form id="contact_form" class="form_email" role="form" action="https://formsubmit.co/jacquelinetida@gmail.com" method="post">
+                    <div class="form_wrapper">
+                        <input type="text" class="form_control" id="name" placeholder="Name" name="name" value="" required>
+                        <input type="email" class="form_control" id="email" placeholder="E-mail" name="email" value="" required>
+                        <input type="hidden" class="form_control" id="subject" placeholder="Subject" name="subject">
+                        <textarea class="form_control" rows="10" placeholder="Message" name="message" required></textarea> 
+                    </div>
+                    <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                        <div class="alt-send-button">
+                          <i class="fas fa-paper-plane fa-2x" style="color: white"></i><span class="send-text">SEND</span>
+                        </div>
+                      </button>
+                </form>
             </div>
         </div>
         <div class="hl1 hl_position3"></div>
     </header>
+    <script src="js.js"></script>
 </body>
 </html>

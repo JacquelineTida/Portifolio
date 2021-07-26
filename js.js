@@ -15,3 +15,4 @@ const r = () =>{
 let photograph = document.querySelector('.photo')
 requestAnimationFrame(r);
 window.addEventListener('scroll', scrollInProgress);
+
