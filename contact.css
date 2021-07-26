@@ -83,7 +83,7 @@ header{
     transform: translateX(-200px);
 }
 .info_wrapper{
-    width: 50%;
+    width: 30%;
     height: 60vh;
     text-align: center;
     justify-content: center;
@@ -94,7 +94,7 @@ header{
     margin-right: 30px;
 }
 .more_info{
-    width: 400px;
+    width: 500px;
     margin: 10px auto;
     display: flex;
     flex-direction: column;
