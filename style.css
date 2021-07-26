@@ -78,6 +78,7 @@ header{
     border: solid, 1px gray;
 }
 .navigator{
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     width: 20%;
@@ -171,4 +172,58 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+@media screen and (max-width:600px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    h4{
+        font-size: 1.0rem;
+    }
+    header{
+        height: 110vh;
+    }
+    .navbar{
+        height:30vh;
+    }
+    .navigator{
+        width: 30%;
+        margin-top: 20px;
+    }
+    .little_me{
+        flex-direction: column;
+        width: 90%;
+    }
+    .photo{
+        width: 40%;
+    }
+    .text_wrapper{
+        width: 80%;
+        transform: translateX(100px);
+    }
+    .hl,
+    .hl1{
+        display: none;
+    }
+    .social_media{
+        width: 50%;
+    }
+    .image_wrapper{
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .unit1{
+        width: 60%;
+        margin: 15px 0;
+    }
+    .title h3{
+        width: 50%;
+    }
+    .icon_wrapper{
+        width: 90%;
+    }
 }

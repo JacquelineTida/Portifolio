@@ -59,6 +59,7 @@ header{
     border: solid, 1px gray;
 }
 .navigator{
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     width: 20%;
@@ -180,6 +181,56 @@ form{
   
   .alt-send-button:hover {
     transform: translate3d(0px, -29px, 0px);
+  }
+  @media screen and (max-width: 600px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    h4{
+        font-size: 1.0rem;
+    }
+    header{
+        height: 110vh;
+    }
+    .navbar{
+        height:30vh;
+    }
+    .navigator{
+        width: 30%;
+        margin-top: 20px;
+    }
+    .little_me{
+        margin: 30px auto;
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .photo{
+        width: 40%;
+    }
+    .text_wrapper{
+        width: 80%;
+        transform: translateX(100px);
+    }
+    .hl,
+    .hl1{
+        display: none;
+    }
+    .info_wrapper{
+        width: 90%;
+        margin: 0 auto;
+    }  
+    .email_wrapper{
+        margin: 50px 0;
+        width: 90%;
+        height:90vh;
+        border: solid 1px pink;
+    }
   }
   
 
