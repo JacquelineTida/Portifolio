@@ -32,9 +32,6 @@ a{
     text-decoration: none;
     color: #3e3d3d;
 }
-.grid{
-    width: 100%;
-}
 /*----- Header ----*/
 header{
     width:100%;
@@ -51,7 +48,6 @@ header{
 .hl_position2{
     width: 750px;
     transform: translate(50px, 0);
-    animation: slide 2s 3s forwards;
 }
 .hl1{
     margin-top: 10px;
@@ -76,45 +72,31 @@ header{
     justify-content: space-between;
     width: 20%;
 }
-.circle{
-    width: 350px;
-    height: 350px;
-    background: hsla(0, 0%, 90%, 0.5);
-    position: relative;
-    border-radius: 50%;
-    left: 100px;
-}
 .little_me{
     margin: 40px 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.little_me img{
+.photo{
     filter: grayscale(100%);
     border-radius: 50%;
-    position:absolute;
+    position: relative;
     left:200px;
     z-index: 2;
+    transform: translateX(-200px);
 }
 .text_wrapper{
     width: 40%;
     display: flex;
     flex-direction: column;
 }
-@keyframes slide{
-    0%{
-        transform: translate(50px, 0);
-    }
-    100%{
-        transform: translate(-10px,0);
-    }
-}
+
 
 /* ----- Social media -----*/
 .social_media{
     width: 20%;
-    margin: 80px auto;
+    margin: 30px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -126,10 +108,10 @@ header{
     color: #f1b900;
     transform: scale(1.2);
 }
-
+/*----- Portifolio gallery --*/
 .portfolio_unit{
     width: 85%;
-    margin: 0 auto;
+    margin: 0px auto 80px auto;
     display: flex;
     flex-direction: column;
 }
@@ -138,16 +120,29 @@ header{
     font-size: 1.6rem;
     padding: 5px;
     color: #3e3d3d;
-    text-align: center;
+    text-align: left;
 }
 .highlight{
     height: 30px;
     background: linear-gradient(180deg, white 60%, #ffdb25 40%);
 }
 .image_wrapper{
+    width: 85%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.image_wrapper img{
+.unit1{
     width: 30%;
+    filter: grayscale(100%);
 }
+.unit2{
+    width: 90%;
+    filter: grayscale(100%);
+}
+.image_wrapper img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    transition: all 1s linear;
+}
+
