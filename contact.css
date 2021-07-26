@@ -229,7 +229,14 @@ form{
         width: 90%;
         margin: 0 auto;
     } 
+    .more_info{
+        width: 90%px;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+    }
     .info_unit a{
+        width: 80%;
         font-size: 1rem;
     } 
     .email_title h3{
