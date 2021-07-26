@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+h1{
+    font-family: 'Raleway', serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+h2{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1.6rem;
+    font-weight: 200;   
+}
+h3{
+    font-family: 'Raleway', serif;
+    font-size: 1.5rem;
+}
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    word-spacing: 2px;
+    text-align: justify;
+    line-height: 2rem;
+}
+a{
+    font-family: 'Raleway', serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: #3e3d3d;
+}
+.hl{
+    height: 1px;
+    background: #3e3d3d;
+}
+.hl_position1{
+    width: 400px;
+    transform: translate(-100px,0);
+}
+/*----- Header ----*/
+header{
+    width:100%;
+    height: 90vh;
+    background: url(/images/papers.co-at43-apple-mac-white-logo-minimal-art-illustration-32-wallpaper\ \(1\).jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    color: #3e3d3d;
+    border: solid, 1px gray;
+}
+.navigator{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.little_me{
+    margin: 40px 0;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    width: 20%;
+    filter: grayscale(100%);
+    border-radius: 50%;
+    position: relative;
+    left: 200px;
+    z-index: 2;
+    transform: translateX(-200px);
+}
+.email_wrapper{
+    width: 50%;
+    height: 60vh;
+    margin: 0 30px;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 100%, 0.7);
+}
+.email_title h3{
+    background-color: #fec5bb;
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Raleway', serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 5px;
+    color: #3e3d3d;
+    font-weight: 300;
+    border-radius: 10px;
+    transform: translateY(-20px);
+}
