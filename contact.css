@@ -184,7 +184,7 @@ form{
   }
   @media screen and (max-width: 600px) {
     h1{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     h2{
         font-size: 1.3rem;
@@ -208,7 +208,7 @@ form{
         width: 90%;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        height: 80vh;
     }
     .photo{
         width: 40%;
@@ -224,12 +224,17 @@ form{
     .info_wrapper{
         width: 90%;
         margin: 0 auto;
-    }  
+    } 
+    .info_unit a{
+        font-size: 1rem;
+    } 
+    .email_title h3{
+        font-size: 1.2rem;
+    }
     .email_wrapper{
         margin: 50px 0;
         width: 90%;
         height:90vh;
-        border: solid 1px pink;
     }
   }
   
