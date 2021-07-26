@@ -226,11 +226,11 @@ form{
         display: none;
     }
     .info_wrapper{
-        width:500px;
+        width: 300px;
         margin: 0 auto;
     } 
     .more_info{
-        width: 300px;
+        width: 200px;
         margin: 10px auto;
         display: flex;
         flex-direction: column;
