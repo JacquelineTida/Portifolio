@@ -56,7 +56,13 @@ header{
 }
 .hl_position3{
     width:40%;
-    margin: 0 auto;
+    margin: -20px auto;
+}
+.hl_position4{
+    width: 40%;
+    position: relative;
+    margin: 30px auto;
+    background: hsla(0, 1%, 24%, 0.3);
 }
 .navbar{
     padding: 10px 30px;
@@ -74,15 +80,17 @@ header{
 }
 .little_me{
     margin: 40px 0;
+    height: 50vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .photo{
+    width: 20%;
     filter: grayscale(100%);
     border-radius: 50%;
     position: relative;
-    left:200px;
+    left: 200px;
     z-index: 2;
     transform: translateX(-200px);
 }
@@ -96,7 +104,7 @@ header{
 /* ----- Social media -----*/
 .social_media{
     width: 20%;
-    margin: 30px auto;
+    margin: 60px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -134,15 +142,26 @@ header{
 }
 .unit1{
     width: 30%;
-    filter: grayscale(100%);
 }
 .unit2{
     width: 90%;
-    filter: grayscale(100%);
 }
-.image_wrapper img:hover{
-    filter: grayscale(0%);
-    transform: scale(1.1);
-    transition: all 1s linear;
+.skills{
+    height: 20vh;
+    width: 50%;
+    margin: 0 auto;
+}
+.skills h3{
+    font-family: 'Raleway', serif;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.icon_wrapper{
+    margin: 80px 0;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 

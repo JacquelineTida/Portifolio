@@ -13,13 +13,5 @@ const r = () =>{
     requestAnimationFrame(r);
 }
 let photograph = document.querySelector('.photo')
-const photo = () => {
-    if(scrolled){
-        photograph.style.transform = "translateX("+ window.scrolY/30 +"%) rotate("+ window.scrollY + 80 +"deg)"
-    }
-    scrolled = false;
-    requestAnimationFrame(photo);
-}
 requestAnimationFrame(r);
-requestAnimationFrame(photo);
 window.addEventListener('scroll', scrollInProgress);
