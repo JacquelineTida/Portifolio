@@ -6,7 +6,7 @@ const scrollInProgress = () =>{
 const r = () =>{
     if(scrolled){
         parallaxTitles.forEach((element,index)=>{
-            element.style.transform = "translateX(-"+ window.scrollY/20 +"%)"
+            element.style.transform = "translateX(-"+ window.scrollY/20 +"%)";
         })
         scrolled = false;
     }
